@@ -1,0 +1,18 @@
+{
+	"name": "@playground/external-durable-objects",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "vite build --app",
+		"check:types": "tsc --build",
+		"dev": "vite dev",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@cloudflare/vite-plugin": "^1.0.5",
+		"@cloudflare/workers-types": "^4.20250409.0",
+		"typescript": "^5.6.2",
+		"vite": "^6.2.1",
+		"wrangler": "4.10.0"
+	}
+}
